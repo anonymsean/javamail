@@ -33,7 +33,7 @@ public class DBDataAccessObject {
 	}
 
 	public void close(Statement stm, ResultSet rs) {
-
+ 
 		try {
 			if (stm != null) {
 				stm.close();

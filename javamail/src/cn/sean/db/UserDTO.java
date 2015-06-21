@@ -3,6 +3,7 @@ package cn.sean.db;
 import java.io.Serializable;
 
 public class UserDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
 	private String userid;
 	private String password;
 	private String email;
