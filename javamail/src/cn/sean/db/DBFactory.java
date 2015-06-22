@@ -13,9 +13,6 @@ public class DBFactory {
 		 Connection conn=null;
 		try {		
 			Context context = new InitialContext();
-			if(context==null){
-				throw new Exception("No Context found!");
-			}
 			DataSource ds=(DataSource)context.lookup("java:comp/env/jdbc/mysql");
 			if(ds==null){
 				throw new Exception("No DataSource found!");
