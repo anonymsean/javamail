@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="WebContent/WEB-INF/libs"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Sean/Downloads/cos.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Sean/Downloads/jaf-1_1_1/jaf-1.1.1/activation.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Sean/Downloads/javamail1_4_7/javamail-1.4.7/mail.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Sean/Downloads/standard_jstl(jb51.net)/jstl/1.2/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Sean/Downloads/standard_jstl(jb51.net)/standard/1.2/standard-1.1.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/tomcat-8.0.23/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
