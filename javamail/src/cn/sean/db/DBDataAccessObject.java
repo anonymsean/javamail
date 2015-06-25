@@ -14,6 +14,7 @@ public class DBDataAccessObject {
 			rs = stm.executeQuery(sql);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
 		return rs;

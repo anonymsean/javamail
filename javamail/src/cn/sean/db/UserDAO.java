@@ -6,12 +6,12 @@ import java.sql.SQLException;
 
 public class UserDAO extends DBDataAccessObject {
 	/*
-	 * ²éÑ¯Ö¸¶¨ÓÃ»§ÔÚÊý¾Ý¿âÖÐÊÇ·ñ´æÔÚ select userid,password,emailid
+	 * ï¿½ï¿½Ñ¯Ö¸ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ select userid,password,emailid
 	 */
 
 	public boolean findUser(UserDTO user, Connection conn) {
-		String sql = "select * from userinfo where userid=" + user.getUserid()
-				+ " and password=" + user.getPassword();
+		String sql = "select * from userinfo where userid= '" +user.getUserid()
+				+ "' and password='" +user.getPassword()+"'";
 		ResultSet rs = null;
 		try{
 		rs = execSelect(sql, conn);
