@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
-		doPost(req,resp);
+		//doPost(req,resp);
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
 		
 		String url=req.getServletPath();
 		if(url.toUpperCase().indexOf("USERLOGIN")!=-1){
-			//��¼�ʼ�ϵͳ
+			//��¼�ʼ�ϵͳ
 			UserDTO userDTO=new UserDTO();
 			userDTO.setUserid(req.getParameter("txtUserID"));
 			userDTO.setPassword(req.getParameter("pwdUserPWD"));
